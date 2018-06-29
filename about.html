@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p><a href="index.html">Галицька Виделка</a></p>
+            <ul>
+                <li><a href="index.html">Домашня</a></li> <!--Як Home українською називати? -->
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="card.html">Замовити</a></li>
+            </ul>
+        </nav>
+        <div class="about-banner">
+            <div>
+                <h1>Про Нас</h1>
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Ресторан Галицька Виделка</h2>
+            <p>- це велика садиба з залами для банкетів і заходів. Заклад має два поверхи і два великих зонованих зали. Є окремі будиночки на 10 осіб і різні зони, що вміщають від 10 до 40 осіб. В тому числі, ресторан прекрасно підходить для проведення банкетів та фуршетів: загальна кількість місць в ресторані – 200, а для фуршету – 300.</p>
+            
+            <h2>Зарезервуйте столик!</h2>
+            <p>Просто заповніть анкету, а все інше ми зробимо власноруч: передзвонимо, дізнаємось зручний для Вас час та підготуємо найкращий стіл. Ласкаво просимо в ресторан ГАЛИЦЬКА ВИДЕЛКА!</p>
+            <form method="POST" action="https://formspree.io/nataly247@gmail.com">
+        <label for="first-name">Імя:</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Марта" required="">
+        <br><br>
+        <label for="last-name">Прізвище:</label> 
+            <input type="text" name="last-name" id="last-name" placeholder="Голодна" required=""> 
+        <br>
+        <br>
+        <label>Email:
+            <input type="email" name="user-email" placeholder="Email" required=""> 
+        </label>
+        <br>
+        <br>
+        <label>Телефон:
+            <input type="tel" id="phone" name="phone" placeholder="097-123-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="Надіслати"><input type="reset">
+    </form>
+        </section>
+    </main>
+    <footer>
+        <p>2018  Галицька виделка</p>
+    </footer>
+</body>
+</html>
